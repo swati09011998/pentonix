@@ -1,0 +1,224 @@
+/* CSS for the navbar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6A87A;
+    /* Change this to your desired background color */
+    color: black;
+    /* Text color */
+    padding: 10px 20px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    width: 119px;
+    /* Adjust the size of the logo as needed */
+    height: 40px;
+    /* Adjust the size of the logo as needed */
+    margin-right: 10px;
+}
+
+/* .logo-box{
+            width: 119px;
+            height: 40px;
+            background-color: white;
+            margin-left: -20px;
+            border-top-right-radius: 25%;
+            border-bottom-right-radius: 25%;
+
+        } */
+.logo-box {
+    width: 119px;
+    height: 40px;
+    border-radius: 0 25px 25px 0;
+    /* Adjust the radius to control the curvature */
+    background-color: white;
+    /* Rectangle background color */
+    margin-left: -20px;
+}
+
+.navbar-logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* Arrange image above text */
+}
+
+/* Add styles for icons */
+.navbar-links img {
+    width: 100px;
+    /* Adjust the size of the icons as needed */
+    height: 70px;
+    /* Adjust the size of the icons as needed */
+    margin-bottom: 5px;
+}
+
+.bar {
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 2px;
+    height: 50px;
+    /* UI Properties */
+    background: transparent url('../images/Rectangle\ 48.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+
+
+
+.main-card {
+    margin: auto;
+    width: 1002px;
+    height: 463px;
+    /* UI Properties */
+    background: transparent url('../images/Rectangle1157.png') 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+
+/* CSS for the container */
+.container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    width: 1002px;
+    height: 463px;
+    /* UI Properties */
+    background: transparent url('../images/Rectangle1157.png') 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 10px;
+
+}
+
+/* CSS for the left section */
+.left-section {
+    flex: 0 0 325px;
+    /* Fixed width for the left section (image and info) */
+}
+
+/* CSS for the image */
+.profile-image {
+    width: 325px;
+    height: 253px;
+    /* Maintain aspect ratio */
+    border-radius: 25px;
+}
+
+/* CSS for the basic info */
+.basic-info {
+    margin-top: 10px;
+    /* Add spacing between image and info */
+}
+
+/* CSS for the right section */
+.right-section {
+    flex: 1;
+    /* Allow the right section to expand */
+    margin-left: 20px;
+    /* Spacing between left and right sections */
+    width: 300px;
+}
+
+/* CSS for the content paragraph */
+.content-paragraph {
+    font-size: 16px;
+    /* Adjust the font size as needed */
+    line-height: 1.5;
+    /* Adjust the line height as needed */
+}
+
+.right-section>.heading {
+    display: flex;
+}
+
+.content>li {
+    margin: 15px;
+    width: 504px;
+}
+
+
+
+
+
+
+.footer {
+    display: flex;
+    margin-left: 81px;
+}
+
+.menu {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 60px;
+    height: 70px;
+}
+
+.menu-content {
+    margin-top: 24px;
+    margin-left: 48px;
+    width: 755px;
+    height: 74px;
+}
+/* .tracker>img{
+    margin: 10px;
+} */
+.tracker{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.pause{
+    position: relative;
+    top: 5px;
+}
+.path{
+    margin-left: 14px;
+    margin-top: 3px;
+}
+.refresh{
+    margin-left: 12px;
+    margin-top: 4px
+}
+.volume{
+    margin-left: 12px;
+    margin-top: 3px
+}
+.back{
+    margin-top: -11px
+}
+.next{
+    margin-top: -11px
+}

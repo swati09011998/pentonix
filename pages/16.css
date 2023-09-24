@@ -1,0 +1,202 @@
+/* CSS for the navbar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6A87A;
+    /* Change this to your desired background color */
+    color: black;
+    /* Text color */
+    padding: 10px 20px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    width: 119px;
+    /* Adjust the size of the logo as needed */
+    height: 40px;
+    /* Adjust the size of the logo as needed */
+    margin-right: 10px;
+}
+
+/* .logo-box{
+            width: 119px;
+            height: 40px;
+            background-color: white;
+            margin-left: -20px;
+            border-top-right-radius: 25%;
+            border-bottom-right-radius: 25%;
+
+        } */
+.logo-box {
+    width: 119px;
+    height: 40px;
+    border-radius: 0 25px 25px 0;
+    /* Adjust the radius to control the curvature */
+    background-color: white;
+    /* Rectangle background color */
+    margin-left: -20px;
+}
+
+.navbar-logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* Arrange image above text */
+}
+
+/* Add styles for icons */
+.navbar-links img {
+    width: 100px;
+    /* Adjust the size of the icons as needed */
+    height: 70px;
+    /* Adjust the size of the icons as needed */
+    margin-bottom: 5px;
+}
+
+.bar {
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 2px;
+    height: 50px;
+    /* UI Properties */
+    background: transparent url('../images/Rectangle\ 48.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+
+.main-content{
+    display: flex;
+    align-items: flex-start;
+   height: 35rem;
+}
+.left-section{
+    width: 100rem;
+}
+
+.right-section{
+    height: 50rem;
+}
+.img
+{
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 16px;
+    
+}
+
+.common{
+    display: flex;
+}
+.content{
+    margin-left: 22px;
+    margin-top: 17px;
+}
+.upblank
+{
+    margin-left: 22px;
+    margin-top: 17px;
+    size:0px;
+}
+.icon{
+    margin-top: 5px;
+}
+.danger{
+    border: 1px solid #000000;
+border-radius: 25px
+}
+.danger>.icon{
+    margin-left: 7px;
+}
+.placeholder::before{
+    content: "icon placeholder";
+    position: relative;
+    top: 61px;
+    left: 10px;
+    color: white;
+    font-weight: lighter
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    margin-left: 81px;
+}
+
+.menu {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 60px;
+    height: 70px;
+}
+
+.menu-content {
+    margin-top: 24px;
+    margin-left: 48px;
+    width: 755px;
+    height: 74px;
+}
+/* .tracker>img{
+    margin: 10px;
+} */
+.tracker{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.pause{
+    position: relative;
+    top: 5px;
+}
+.path{
+    margin-left: 14px;
+    margin-top: 3px;
+}
+.refresh{
+    margin-left: 12px;
+    margin-top: 4px
+}
+.volume{
+    margin-left: 12px;
+    margin-top: 3px
+}
+.back{
+    margin-top: -11px
+}
+.next{
+    margin-top: -11px
+}
